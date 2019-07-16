@@ -1,6 +1,6 @@
 {
-  "name": "precision-number1",
-  "version": "1.0.0",
+  "name": "precision-number",
+  "version": "1.1.0",
   "description": "precision number ",
   "main": "build/index.js",
   "scripts": {
