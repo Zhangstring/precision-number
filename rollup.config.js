@@ -1,5 +1,6 @@
+import typescript from 'rollup-plugin-typescript2'
 export default {
-  input: 'src/index.js',
+  input: 'src/index.ts',
   output: [
     {
       format: 'iife',
@@ -15,5 +16,6 @@ export default {
       format: 'cjs',
       file: './build/index.js'
     }
-  ]
+  ],
+  plugins: [typescript()]
 }
